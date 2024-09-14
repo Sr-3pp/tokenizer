@@ -1,0 +1,24 @@
+{
+  "name": "json-to-var",
+  "version": "1.1.0",
+  "description": "Convert your json tokens into js, css or scss variables. Or just flat your json.",
+  "keywords": [
+    "json",
+    "to",
+    "var",
+    "convert",
+    "flat",
+    "css",
+    "scss",
+    "js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Sr3pp",
+    "url": "https://sr3pp.dev"
+  },
+  "license": "ISC"
+}
