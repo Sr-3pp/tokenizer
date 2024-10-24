@@ -1,7 +1,7 @@
 export default class tokenizer {
   constructor() {}
 
-  formatKey(key, fromat) {
+  static formatKey(key, fromat) {
     const _key = key.replace(/\.value/g, "");
     switch (fromat) {
       case "kebab":
@@ -39,7 +39,7 @@ export default class tokenizer {
     }
   }
 
-  getValue(value, lang) {
+  static getValue(value, lang) {
     if (typeof value === "string") {
       if (lang === "css") {
         return `${
@@ -54,7 +54,7 @@ export default class tokenizer {
     }
   }
 
-  parseInputs(inputs, keyFormat = "kebab") {
+  static parseInputs(inputs, keyFormat = "kebab") {
     const flatObject = (obj) => {
       let result = {};
 
